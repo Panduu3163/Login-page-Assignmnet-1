@@ -1,0 +1,120 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , "sans-serif";
+    background-image: url("/assets/image/background.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+}
+
+.login-box{
+
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 15px;
+    padding: 20px 20px 200px 50px;
+    box-shadow: 10px 10px 10px 3px;
+}
+
+.login-header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+.input-box{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    left: 20px;
+
+}
+
+.input{
+
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    
+
+}
+
+.label{
+
+position: absolute;
+top: -25px;
+left: 15px;
+
+}
+
+.icon{
+
+    position: absolute;
+    top: 8px;
+    right: 5pc;
+
+}
+
+.forgot{
+
+    position: relative;
+    right: -45%; 
+    top: 48%;   
+
+}
+
+.login-button{
+
+    
+    width: 80%;
+    height: 45px;
+    background-color: palevioletred;
+    box-shadow: 3px 3px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+
+.register{
+
+    text-align: center;
+}
+
+
+.logos{
+
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+
